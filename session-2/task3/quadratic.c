@@ -22,6 +22,10 @@ int main( void ) {
      * Print out the final results for the 2 roots as float values.
      */
 
+    root1 = (-b+sqrt((b*b)-4*a*c))/2*a ;
+    root2 = (-b-sqrt((b*b)-4*a*c))/2*a ;
+    
+    printf("The roots of the equation %fx^2 + %fx + %f are: %f and %f\n", a, b, c, root1, root2);
     
 
     return 0;
